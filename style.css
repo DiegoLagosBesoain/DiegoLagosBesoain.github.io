@@ -1,0 +1,71 @@
+.parrafo_de_texto {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #d2b48c;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+#nombre_titulo {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #f39c12;
+    text-shadow: 2px 2px 0 #c0392b, 4px 4px 0 #d35400, 6px 6px 0 #e67e22, 8px 8px 0 #e74c3c;
+    border: 5px solid #f39c12;
+    padding: 10px 20px; 
+    background-color: #34495e;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: inline-block; 
+    width: auto; 
+    white-space: nowrap; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parrafo_con_imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parrafo_con_imagen img {
+    max-width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #3f3105;
+    color: white;
+    font-size: 16px;
+}
+
+td {
+    background-color: #34495e;
+    color: white;
+    font-size: 14px;
+}
+
+tr:nth-child(even) td {
+    background-color: #2c3e50;
+}
+
+tr:hover {
+    background-color: #a08016;
+}
+
+table, th, td {
+    border: 1px solid #3f3105;
+}
