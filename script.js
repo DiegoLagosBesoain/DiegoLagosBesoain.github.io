@@ -11,10 +11,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const ul = document.getElementById("theList");
     ul.addEventListener("click", manejo_de_cartas_);
 
-    
-    
-    
 
-
-    
 });

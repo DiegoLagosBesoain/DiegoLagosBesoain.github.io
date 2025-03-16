@@ -1,3 +1,13 @@
+body {
+    
+    background-image: url('dfl98ku-e4098a35-8a6c-461e-bca9-aac6deb35ade.png'); 
+    background-size: cover;  
+    background-position: center center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    padding: 0; 
+}
 .parrafo_de_texto {
     max-width: 100%;
     width: 90%;
@@ -6,10 +16,16 @@
     border-radius: 5px;
     font-size: 16px;
     outline: none;
-    background-color: #d2b48c;
+    background-color: #d8c518;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
-
+.parrafo_con_imagen > .parrafo_de_texto {
+   
+    margin: 20px; 
+    padding: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
 #nombre_titulo {
     font-family: 'Arial', sans-serif;
     font-size: 2rem;
@@ -46,10 +62,31 @@
     max-width: 100%;
     height: auto;
     max-width: 300px;
-    margin-left: 20px;
+    margin-left: 20px; 
+    margin-top: 20px;  
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+
 }
 
-
+.button-and-image {
+    display: flex;
+    flex-direction: column;  
+    gap: 10px;               
+    margin-top: 20px;        
+}
+#boton_cambio_de_texto {
+    width: auto;             
+    padding: 10px 20px;       
+    font-size: 16px;          
+    align-self: flex-start;   
+}
+.button-and-image img {
+    max-width: 100%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 10px;        
+}
 table {
     width: 100%;
     border-collapse: collapse;
