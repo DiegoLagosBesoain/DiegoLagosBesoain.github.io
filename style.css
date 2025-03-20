@@ -9,6 +9,30 @@ body {
     padding: 0; 
     font-family: 'Roboto', sans-serif;
 }
+.btn-outline-primary {
+    border-color: yellow;
+    color: rgb(247, 247, 58);
+}
+.accordion-button {
+    background-color: rgb(247, 247, 58);
+    color: black;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: black;
+    color: rgb(247, 247, 58);
+}
+
+.accordion-body {
+    background-color: #222; 
+    color: white;
+}
+.btn-outline-primary:hover,
+.btn-check:checked + .btn-outline-primary {
+    background-color: rgb(247, 247, 58);
+    color: black;
+}
 .parrafo_de_texto {
     max-width: 100%;
     width: 90%;
